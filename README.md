@@ -1,5 +1,9 @@
-# Awesome-Foundation-Models
-## Foundation Models in AI: History, Progression, Variants, & Applications
+<p align="center">
+  <img src="assets/banner.svg" alt="Banner">
+</p>
+
+# 🌟 Awesome-Foundation-Models 🌟
+## 🧠 Foundation Models in AI: History, Progression, Variants, & Applications
 
 A **Foundation Model**—formally conceptualized by the Stanford Institute for Human-Centered Artificial Intelligence (HAI) in 2021—is an architectural paradigm in artificial intelligence denoting a massive neural network trained on broad, web-scale uncurated data (typically via self-supervised learning) that can be adapted to a vast spectrum of downstream cognitive and physical tasks. 
 
@@ -7,7 +11,7 @@ Prior to the foundation model era, the artificial intelligence ecosystem was cha
 
 ---
 
-## 1. The Macro Chronological Evolution
+## 🕰️ 1. The Macro Chronological Evolution
 
 The architectural scaling of foundation networks has transitioned from early text-only encoder representations to autoregressive decoders, multi-modal patch arrays, and native reinforcement-learned System 2 thinking engines.
 
@@ -28,7 +32,7 @@ flowchart LR
 
 ---
 
-## 2. Core Functional & Architectural Variants
+## 🏗️ 2. Core Functional & Architectural Variants
 
 Foundation Models are strictly categorized based on the underlying transformer topologies they use to route and process sequence parameters.
 
@@ -41,7 +45,7 @@ Foundation Models are strictly categorized based on the underlying transformer t
 
 ---
 
-## 3. High-Capacity Architectural & Memory Components
+## 💾 3. High-Capacity Architectural & Memory Components
 
 To serve and scale massive foundation models over long text and multimodal contexts, enterprise deployment platforms orchestrate hardware-fused caching infrastructures [INDEX: 22].
 
@@ -52,7 +56,7 @@ To serve and scale massive foundation models over long text and multimodal conte
 
 ---
 
-## 4. Production Engineering Challenges & Mitigations
+## ⚠️ 4. Production Engineering Challenges & Mitigations
 
 Deploying and maintaining foundation systems across large distributed high-performance computing clusters introduces severe data walls and alignment trade-offs.
 
@@ -63,7 +67,7 @@ Deploying and maintaining foundation systems across large distributed high-perfo
 
 ---
 
-## 5. Frontier Real-World AI Industrial Applications
+## 🏭 5. Frontier Real-World AI Industrial Applications
 
 | Application | Details | Year First Used | Paper Link |
 | --- | --- | --- | --- |
@@ -73,7 +77,7 @@ Deploying and maintaining foundation systems across large distributed high-perfo
 
 ---
 
-## References
+## 📚 References
 1. Vaswani, A., et al. (2017). Attention is all you need: Foundational transformer matrix blocks. *Advances in Neural Information Processing Systems (NeurIPS)*, 30 [INDEX: 1].
 2. Devlin, J., et al. (2018). BERT: Pre-training of deep bidirectional transformers for language understanding. *arXiv preprint arXiv:1810.04805* [INDEX: 1].
 3. Brown, T., et al. (2020). Language models are few-shot learners: In-context learning scaling frontiers. *Advances in Neural Information Processing Systems (NeurIPS)*, 33, 1877-1901 [INDEX: 11, 15].
