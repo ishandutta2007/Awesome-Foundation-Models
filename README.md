@@ -13,7 +13,10 @@ The architectural scaling of foundation networks has transitioned from early tex
 
 
 ```mermaid
-[Text Encoders (BERT/ELMo, 2018)] ───> [Autoregressive Decoders (GPT-3, 2020)] ───> [Native Omni Multi-Modal (2023-2024)] ───> [System 2 Reasoning Engines (o1/R1, Present)](Bidirectional Word Feature Vectors)     (Emergent In-Context Few-Shot Prompts)       (Interleaved Image/Audio Shared Spaces)      (Internalized RL-Learned Verification Loops)
+flowchart LR
+    A["Text Encoders (BERT/ELMo, 2018)<br/>(Bidirectional Word Feature Vectors)"] --> B["Autoregressive Decoders (GPT-3, 2020)<br/>(Emergent In-Context Few-Shot Prompts)"]
+    B --> C["Native Omni Multi-Modal (2023-2024)<br/>(Interleaved Image/Audio Shared Spaces)"]
+    C --> D["System 2 Reasoning Engines (o1/R1, Present)<br/>(Internalized RL-Learned Verification Loops)"]
 ```
 
 *   **The Bidirectional Text Encoder Era (BERT / ELMo, ~2018–2020)**
